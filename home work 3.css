@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    position: relative;
+    display: flex;
+}
+.left{
+    margin-top: 40px;
+    margin-left: 10px 10px;
+    position: absolute;
+}
+.images{
+    width: 300px;
+    position: absolute;
+    padding: 10px 30px;
+    z-index: 99px;
+}
+
+.child{
+     margin: 10px 20px;
+    width: 590px;
+    height: 250px;
+    background-color: blue;
+    position: absolute;
+    
+}
+
+
+.main{
+    height: 100vh;
+    width: 50%;
+    
+   
+}
